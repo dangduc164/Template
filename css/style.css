@@ -452,7 +452,10 @@ footer {
     header ul li {
         display: none;
     }
-    header input {
+    header .input-group {
         display: none;
+    }
+    header .bars i {
+        display: block;
     }
 }
