@@ -32,6 +32,12 @@ header ul li a:hover {
     color: orange;
 }
 
+.bars {
+    display: none;
+    text-align: right;
+    cursor: pointer;
+}
+
 .input-group {
     margin-top: 10px;
     background-color: #c3bfbc;
@@ -448,14 +454,179 @@ footer {
     background-size: 100%;
 }
 
-@media ( max-width: 786px) {
-    header ul li {
-        display: none;
+footer h3 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+footer p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+@media screen and ( max-width: 786px) {
+    header ul {
+        width: 100%;
+        background: #7f7770;
     }
-    header .input-group {
+    header ul li {
+        list-style: none;
+        flex-direction: column;
         display: none;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px;
+        text-align: center;
+    }
+    .bars {
+        display: block;
     }
     header .bars i {
         display: block;
+    }
+    .banner h1 {
+        margin-top: 50px;
+        font-size: 42px;
+    }
+    .banner h6 {
+        float: left;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    .banner p {
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .readmore {
+        margin-top: 20px;
+    }
+    .letgo {
+        margin-top: -55%;
+    }
+    .letgo .title h2 {
+        font-size: 43px;
+    }
+    .letgo .title p {
+        margin: 20px auto;
+        font-size: 17px;
+    }
+    .letgo .item {
+        background-color: #7f7770;
+        margin: 0 20px;
+    }
+    .letgo .item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .letgo .item .content h3 {
+        padding: 22px 7px;
+        font-size: 22px;
+    }
+    .letgo .item .content p {
+        font-size: 15px;
+    }
+    .showmore {
+        margin-top: 30px;
+    }
+    .showmore a {
+        font-size: 18px;
+        letter-spacing: 5px;
+        line-height: 18px;
+        padding: 20px 30px;
+        width: 300px;
+    }
+    .text-body2 h3 {
+        font-size: 38px;
+    }
+    .readmore-body2 a {
+        font-size: 18px;
+        letter-spacing: 5px;
+        line-height: 18px;
+        padding: 20px 30px;
+        width: 300px;
+    }
+    .text-body2 p {
+        font-size: 16px;
+    }
+    .text-body3 {
+        margin-top: 10%;
+    }
+    .text-body3 h3 {
+        font-size: 38px;
+    }
+    .readmore-body3 a {
+        font-size: 18px;
+        letter-spacing: 5px;
+        line-height: 18px;
+        padding: 20px 30px;
+        width: 300px;
+    }
+    .text-body3 p {
+        font-size: 16px;
+    }
+    .text-body4 h2 {
+        font-size: 33px;
+    }
+    .text-body4 p {
+        font-size: 17px;
+    }
+    .text-body7 h5 {
+        font-size: 23px;
+        line-height: 23px;
+    }
+    .text-body7 p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .text-content-body7 h1 {
+        font-size: 100px;
+    }
+    .text-content-body7 p {
+        margin-top: -2%;
+        font-size: 21px;
+    }
+    .text-content-body7 strong a {
+        font-size: 21px;
+    }
+    .text-body8 {
+        top: 35%;
+    }
+    .text-body8 h1 {
+        font-size: 55px;
+    }
+    .text-body8 p {
+        font-size: 20px;
+    }
+    .main-body8 input {
+        font-size: 15px;
+        width: 400px;
+        height: 43px;
+    }
+    .main-body8 strong {
+        width: 150px;
+        height: 43px;
+    }
+    .main-body8 button {
+        font-size: 15px;
+        width: 222px;
+        height: 43px;
+    }
+    footer h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600) {
+    header .logo img {
+        width: 70%;
+        height: 30px;
     }
 }
