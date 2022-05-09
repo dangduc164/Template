@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('#bars').click(function() {
+$(document).ready(() => {
+    $('#bars').click(() => {
         $('ul li').slideToggle();
     })
 })
